@@ -1,0 +1,84 @@
+.background {
+    background: url("../images/plans-background.jpg") center/cover;
+    filter: grayscale(80%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.package {
+    width: 80%;
+    margin: 2.7rem 0;
+    border: 0.25rem solid #0e4f1f;
+    border-left: none;
+    position: relative; 
+    text-align: center;   
+}
+
+.package:hover {
+    border-color: #ff5454;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.package a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 2rem;
+}
+.package__badge {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0.5rem;
+    color: #fff;
+    background: #ff5454;
+    z-index: 0;
+}
+
+.package__subtitle {
+    color: #979797;
+}
+
+.package__info {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: #0e4f1f;
+    border: 0.0625rem solid #0e4f1f;
+    background: white;
+}
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 0.25rem solid #0e4f1f;
+    text-align: right;
+}
+
+#free:hover {
+    border-left: 0.25rem solid #ff5454;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .package__title {
+    color: white;
+}
+
+#premium .package__subtitle {
+    color: #bbb;
+}
